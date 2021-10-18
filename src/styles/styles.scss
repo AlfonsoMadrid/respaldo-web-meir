@@ -1,0 +1,20 @@
+
+/*Base*/
+@import './base/settings';
+@import './base/base';
+
+/*Components*/
+@import './components/navbar';
+@import './components/login';
+@import './components/loader';
+@import './components/carousel';
+@import './components/banner';
+@import './components/about';
+@import './components/services';
+@import './components/report';
+@import './components/contact';
+@import './components/footer';
+
+/*Dashboard*/
+@import './dashboard/dashboard';
+@import './dashboard/acordeon';

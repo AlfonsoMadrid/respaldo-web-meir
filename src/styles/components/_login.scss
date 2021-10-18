@@ -1,0 +1,64 @@
+/* Modal */
+.ReactModalPortal > div{
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease-in-out;
+    z-index: 999;
+}
+
+.modal-fondo {
+    background-color: rgba(255, 255, 255, 0.3);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal {
+    background: $light-gray;
+    border: 0.05px solid lighten($color: $tertiary, $amount: 30);
+    border-radius: 5px;
+    display: inline;
+    max-height: 500px;
+    max-width: 360px;
+}
+
+/*LoginModal*/
+
+.modal__tittle{
+    color: $primary;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: $font-tittle;
+}
+
+.item__form{
+    color: $primary;
+    font-family: $font-tittle;
+}
+.item__form i{
+    font-size: 1.5rem;
+}
+.item__form p{
+    font-size: 1.2rem;
+}
+.item__form a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: $primary !important;
+    
+}

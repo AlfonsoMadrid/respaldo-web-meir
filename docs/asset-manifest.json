@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e64953d8.chunk.css",
+    "main.js": "/static/js/main.7dc610e7.chunk.js",
+    "main.js.map": "/static/js/main.7dc610e7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ba82224e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ba82224e.js.map",
+    "static/js/2.ca383d4d.chunk.js": "/static/js/2.ca383d4d.chunk.js",
+    "static/js/2.ca383d4d.chunk.js.map": "/static/js/2.ca383d4d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e64953d8.chunk.css.map": "/static/css/main.e64953d8.chunk.css.map",
+    "static/js/2.ca383d4d.chunk.js.LICENSE.txt": "/static/js/2.ca383d4d.chunk.js.LICENSE.txt",
+    "static/media/analisis.7a36aca6.png": "/static/media/analisis.7a36aca6.png",
+    "static/media/styles.scss": "/static/media/power_lines_skyblue.157c0bd9.jpeg",
+    "static/media/consumo.f49f7d97.png": "/static/media/consumo.f49f7d97.png",
+    "static/media/costo_marginal.3fddd0fa.png": "/static/media/costo_marginal.3fddd0fa.png",
+    "static/media/datos.ac4583fa.png": "/static/media/datos.ac4583fa.png",
+    "static/media/light_bulb.98c56501.jpeg": "/static/media/light_bulb.98c56501.jpeg",
+    "static/media/logo-meir.e5effa4e.png": "/static/media/logo-meir.e5effa4e.png",
+    "static/media/pylon.254d658c.jpeg": "/static/media/pylon.254d658c.jpeg",
+    "static/media/reliquidacion.7a280d9b.png": "/static/media/reliquidacion.7a280d9b.png",
+    "static/media/sky_fields.e0d5af9f.jpeg": "/static/media/sky_fields.e0d5af9f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba82224e.js",
+    "static/js/2.ca383d4d.chunk.js",
+    "static/css/main.e64953d8.chunk.css",
+    "static/js/main.7dc610e7.chunk.js"
+  ]
+}

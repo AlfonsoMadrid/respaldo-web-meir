@@ -1,0 +1,14 @@
+.footer__container{
+    background-color: $primary;
+    height: 50px;
+    color: $light;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: bottom;
+}
+.footer__container span{
+    color: rgb(214, 185, 209);
+    font-weight: bold;
+}

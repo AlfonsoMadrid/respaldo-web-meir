@@ -1,0 +1,136 @@
+.carrousel__slider{
+    width: auto;
+    height: 90vh;
+    overflow: hidden;
+    background: linear-gradient(#279EB9, $primary, #b9a327);
+}
+
+.carousel__slides{
+    width: 500%;
+    height: auto;
+    display: flex;
+}
+
+.carousel__slides input{
+    display: none;
+}
+
+.carousel__slide{
+    width: 20%;
+    transition: 2s;
+}
+.carousel__slide img{
+    width: 100vw;
+    height: 90vh;
+    opacity: 0.7;
+}
+
+/*manual Slide*/
+
+.carousel__manual__navigation{
+    position: absolute;
+    width: 100vw;
+    margin-top: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.manual__btn{
+    border: 2px solid $light-gray;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    &:not(:last-child){
+        margin-right: 40px;
+    }
+    &:hover{
+        background: $light-gray;
+    }
+}
+
+#radio1:checked ~ .slide__first{
+    margin-left: 0;
+}
+#radio2:checked ~ .slide__first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .slide__first{
+    margin-left: -40%;
+}
+
+/*Automatic slider*/
+
+.carousel__auto__navigation{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 75vh;
+}
+.carousel__auto__navigation div{
+    border: 2px solid lighten($color: $primary, $amount: 20);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.carousel__auto__navigation div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .carousel__auto__navigation .auto__btn1{
+    background: $light-gray;
+}
+#radio2:checked ~ .carousel__auto__navigation .auto__btn2{
+    background: $light-gray;
+}
+#radio3:checked ~ .carousel__auto__navigation .auto__btn3{
+    background: $light-gray;
+}
+
+/*@medias*/
+@media screen and (min-width: 600px){
+    .carrousel__slider{
+        min-width: auto;
+        height: 88vh;
+    }
+    .carousel__slide img{
+        width: 100vw;
+        height: 90vh;
+        opacity: 0.8;
+    }
+    .manual__btn{
+        border: 2px solid lighten($color: $primary, $amount: 20);
+        &:hover{
+            background: lighten($color: $primary, $amount: 20);
+        }
+    }
+
+    #radio1:checked ~ .carousel__auto__navigation .auto__btn1{
+        background: lighten($color: $primary, $amount: 20);
+    }
+    #radio2:checked ~ .carousel__auto__navigation .auto__btn2{
+        background: lighten($color: $primary, $amount: 20);
+    }
+    #radio3:checked ~ .carousel__auto__navigation .auto__btn3{
+        background: lighten($color: $primary, $amount: 20);
+    }
+
+}
+
+@media screen and (min-width: 800px){
+    .carrousel__slider{
+        height: auto;
+    }
+    .carousel__slide img{
+        height: 90vh;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .carousel__slide img{
+        height: auto;
+    }
+}
+

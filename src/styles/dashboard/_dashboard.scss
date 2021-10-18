@@ -1,0 +1,15 @@
+.dashboard__container{
+    background: darken($color: $secondary, $amount: 20);
+    height: 150%;
+    padding-bottom: 50px;
+}
+.dashboard__nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    background: darken($color: $secondary, $amount: 20);
+}
+.dashboard__user span, .dashboard__user i{
+    color: $light;
+}

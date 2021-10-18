@@ -1,0 +1,49 @@
+.report__container{
+    width: auto;
+    height: 160vh;
+    background-position: center center;
+    background-size: cover;
+    background-image: 
+        linear-gradient(rgba(255,255,255,.7), 
+        rgba(255,255,255,.7)),
+        url('../../assets/img/power_lines_skyblue.jpeg');
+    background-attachment: fixed;
+}
+.report__content{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.report__tittle{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.report__tittle h1{
+    color: $primary;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+
+/*Media*/
+
+@media screen and (min-height: 750px) {
+    .report__container{
+        height: 100vh;
+    }
+}
+@media screen and (min-width: 600px) {
+    .report__container{
+        height: 120vh;
+    }
+    
+}
+@media screen and (min-width: 800px) {
+    .report__container{
+        height: 100vh;
+    }
+    .report__tittle h1{
+        margin-top: 0;
+    }
+}

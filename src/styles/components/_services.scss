@@ -1,0 +1,81 @@
+.services__container{
+    width: auto;
+    height: 160vh;
+    background-position: center center;
+    background-size: cover;
+    background-image: 
+        linear-gradient(rgba(255,255,255,.7), 
+        rgba(255,255,255,.7)),
+        url('../../assets/img/power_lines.jpeg');
+    background-attachment: fixed;
+}
+.services__content{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.services__tittle{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.services__tittle h1{
+    color: $primary;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+.services__info, .service__info__card{
+    padding: 0 10% 10% 10% ;
+}
+.services__info p, .service__info__card p{
+    text-align: justify;
+    font-size: 1rem;
+    color: $secondary;
+}
+.services__card{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.services__card img{
+    height: 8rem;
+}
+.services__card p{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: $secondary;
+    font-size: 1.5rem;
+}
+/*Media*/
+
+@media screen and (min-height: 750px) {
+    .services__container{
+        height: 100vh;
+    }
+}
+@media screen and (min-width: 600px) {
+    .services__container{
+        height: 120vh;
+    }
+    .services__info p{
+        text-align: center;
+        padding-bottom: 5vh;
+        font-size: 1.1rem;
+    }
+    .services__info__card{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+}
+@media screen and (min-width: 800px) {
+    .services__container{
+        height: 100vh;
+    }
+    .services__tittle h1{
+        margin-top: 0;
+    }
+    .services__info {
+        padding-bottom: 1rem;
+    }
+}

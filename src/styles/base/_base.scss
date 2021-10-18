@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: $font-tittle;
+}
+.btn{
+    background-color: $primary !important;
+    color: white !important;
+    font-weight: 300 !important;
+    font-family: Helvetica !important;
+}
+.btn:hover{
+    background-color: lighten($primary, 10%) !important;
+}
